@@ -1,24 +1,28 @@
-console.log('hello from about us');
-
 buildAboutUs();
 
 function buildAboutUs() {
 
+    const aboutUsTitle = document.createElement('h1');
+    aboutUsTitle.className = 'text-center';
+    aboutUsTitle.innerHTML = 'About Us';
+    aboutUs.appendChild(aboutUsTitle);
+
+
+
+
+
     const topDiv = document.createElement('div');
     topDiv.setAttribute('id', 'topdiv');
     topDiv.className = '';
-
     aboutUs.appendChild(topDiv);
 
-    const aboutUsTitleDiv = document.createElement('div');
-    aboutUsTitleDiv.className = '';
-    aboutUs.appendChild(aboutUsTitleDiv);
+    const person1Div = document.createElement('div');
+    person1Div.className = 'float-start';
+    topDiv.appendChild(person1Div);
 
-    const aboutUsTitle = document.createElement('h1');
-    aboutUsTitle.className = '';
-    aboutUsTitle.innerHTML = 'About Us';
-    aboutUsTitleDiv.appendChild(aboutUsTitle);
-
-
+    const p1Title = document.createElement('h2');
+    p1Title.className = 'float-start ml-2';
+    p1Title.innerHTML = 'Axel';
+    topDiv.appendChild(p1Title);
 
 };
