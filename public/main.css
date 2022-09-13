@@ -4,7 +4,7 @@ body {
 
 #navBar {
     background-color: #075F9F;
-    border-bottom: 0.5% solid black;
+    border-bottom: 1px solid black;
 }
 
 #hero {
@@ -25,4 +25,13 @@ body {
 
 #projects {
     background-color: #075F9F;
+}
+
+#btnProjects {
+    margin-left: 100px;
+}
+
+#btnEducation {
+    margin-left: 100px;
+    margin-right: 250px;
 }
