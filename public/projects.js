@@ -9,8 +9,12 @@ Title.innerHTML = 'Projects';
 projects.appendChild(Title);
 
 const BorderDiv = document.createElement('div');
-BorderDiv.className = 'container-sm bg-primary';
+BorderDiv.setAttribute('id', 'BorderDiv');
+BorderDiv.className = 'mx-auto card-text overflow-auto bg-primary w-50';
 projects.appendChild(BorderDiv);
 
-//const Border = document.createElement();
+const Content = document.createElement('p');
+Content.className = 'text-center';
+Content.innerHTML = 'bhehfsdfjeiojfiwejsjrfisdfjiowehf ijiedfklgjrejigjdfjgkjerjgiodf wdasdwerkgjdfjgioqweuifhsdfughidjuij rj';
+BorderDiv.appendChild(Content); 
 };
