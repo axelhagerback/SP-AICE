@@ -1,0 +1,22 @@
+body {
+    background-color: palevioletred;
+}
+
+#navBar {
+    border: 1px solid black;
+}
+
+#hero {
+    border: 1px solid blue;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#aboutUs {
+    border: 1px solid green;
+}
+
+#projects {
+    border: 1px solid yellow;
+}
