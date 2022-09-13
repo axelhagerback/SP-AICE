@@ -1,22 +1,28 @@
 body {
-    background-color: palevioletred;
+    background-color: #7DC3D9;
 }
 
 #navBar {
-    border: 1px solid black;
+    background-color: #075F9F;
+    border-bottom: 0.5% solid black;
 }
 
 #hero {
-    border: 1px solid blue;
+    background-color: #075F9F;
     width: 60%;
     text-align: center;
     margin: 0 auto;
+    margin-top: 3%;
+    margin-bottom: 25%;
+    padding: 2%;
+    border-radius: 10%;
+    font-size: 18px;
 }
 
 #aboutUs {
-    border: 1px solid green;
+    background-color: #075F9F;
 }
 
 #projects {
-    border: 1px solid yellow;
+    background-color: #075F9F;
 }
