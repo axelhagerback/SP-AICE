@@ -13,9 +13,9 @@ function buildHero() {
     hero.appendChild(heroContent);
 
     const heroText = document.createElement('p');
-    heroText.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae metus a erat iaculis cursus ac semper leo.' +
-    'Aliquam sed consequat quam. Proin lobortis hendrerit dolor, vitae egestas sem imperdiet eget.' + 
-    'Nam id arcu id tortor rhoncus euismod quis eu quam. Vivamus sem dui, condimentum sed commodo.';
+    heroText.innerHTML = 'Att erbjuda kompetenta och framtidstänkande programmerare till olika företag för att förverkliga deras ideer'+
+    ' samt lösa deras tekniska problem till ett rimligt pris.<br>'+
+    '<br>Stor vikt läggs på öppen kommunikation mellan teamet och företaget för att skapa ett så bra samarbete som möjligt.';
     heroText.className = 'w-100';
     heroContent.appendChild(heroText);
 };
