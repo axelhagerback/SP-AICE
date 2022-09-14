@@ -25,4 +25,10 @@ function buildNavBar() {
     btnEducation.innerHTML = '<h1>Education</h1>';
     divNavBar.appendChild(btnEducation);
 
+    const btnPolicy= document.createElement('btn');
+    btnPolicy.setAttribute('id', 'btnPolicy');
+    btnPolicy.className = 'btn border-0';
+    btnPolicy.innerHTML = '<h1>Policy</h1>';
+    divNavBar.appendChild(btnPolicy);
+
 };  
